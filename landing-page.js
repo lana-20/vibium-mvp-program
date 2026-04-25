@@ -22,7 +22,11 @@ import {
   Coins,
   ChevronDown,
   ExternalLink,
-  Code2
+  Code2,
+  Wrench,
+  Gamepad2,
+  BarChart3,
+  Network
 } from 'lucide-react';
 
 // --- UI COMPONENTS ---
@@ -263,7 +267,7 @@ export default function App() {
           </div>
         </section>
 
-        {/* AGENT WARS - THE 3D CHESS TOURNAMENT */}
+        {/* AGENT WARS - THE CHALLENGES */}
         <section id="agent-wars" className="py-32 px-8 relative overflow-hidden">
           <div className="max-w-7xl mx-auto">
              <div className="bg-[#0c0c0c] border border-white/5 rounded-[4rem] p-12 md:p-24 relative overflow-hidden group">
@@ -287,13 +291,44 @@ export default function App() {
                       AGENT <br /> <span className="text-neutral-600">WARS.</span>
                     </h2>
                     <p className="text-neutral-400 text-lg md:text-xl mb-12 leading-relaxed">
-                      Build agents that don't just see the web—they master it. Season 01 features the **3D Chess Arena**, a spatial reasoning benchmark for high-performance agentic flows.
+                      Build agents that don't just see the web—they master it. Season 01 features the <span className="text-white font-bold italic">3D Chess Arena</span>, a spatial reasoning benchmark for high-performance agentic flows.
                     </p>
-                    <div className="flex flex-wrap gap-4 mb-10">
-                       <div className="bg-white/5 px-4 py-2 rounded-lg border border-white/10 text-xs font-bold uppercase tracking-widest text-neutral-400 italic">Spatial Reasoning</div>
-                       <div className="bg-white/5 px-4 py-2 rounded-lg border border-white/10 text-xs font-bold uppercase tracking-widest text-neutral-400 italic">DOM Manipulation</div>
-                       <div className="bg-white/5 px-4 py-2 rounded-lg border border-white/10 text-xs font-bold uppercase tracking-widest text-neutral-400 italic">Self-Healing</div>
+                    
+                    <div className="space-y-6 mb-12">
+                      <div className="flex gap-4 p-5 bg-white/[0.03] border border-white/5 rounded-2xl group/item hover:bg-white/[0.05] transition-colors">
+                        <div className="w-10 h-10 rounded-xl bg-orange-500/10 flex items-center justify-center text-orange-500 shrink-0">
+                          <Gamepad2 size={20} />
+                        </div>
+                        <div>
+                          <h4 className="text-xs font-black uppercase tracking-widest mb-1">3D Chess Arena</h4>
+                          <p className="text-[10px] text-neutral-500 italic uppercase font-bold tracking-tight">Challenge: Spatial Reasoning Benchmark</p>
+                          <p className="text-[10px] text-neutral-600 mt-2 leading-relaxed italic">Agents must navigate a dynamic 3-dimensional board state, predicting moves across XYZ coordinates with zero-latency response.</p>
+                        </div>
+                      </div>
+
+                      <div className="flex gap-4 p-5 bg-white/[0.03] border border-white/5 rounded-2xl group/item hover:bg-white/[0.05] transition-colors">
+                        <div className="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400 shrink-0">
+                          <Wrench size={20} />
+                        </div>
+                        <div>
+                          <h4 className="text-xs font-black uppercase tracking-widest mb-1">Self-Healing Checkout</h4>
+                          <p className="text-[10px] text-neutral-500 italic uppercase font-bold tracking-tight">Challenge: System Resiliency</p>
+                          <p className="text-[10px] text-neutral-600 mt-2 leading-relaxed italic">Build an agent capable of completing a checkout flow with 5 broken pieces: missing fields, dynamic selector changes, and intermittent timeouts.</p>
+                        </div>
+                      </div>
+
+                      <div className="flex gap-4 p-5 bg-white/[0.03] border border-white/5 rounded-2xl group/item hover:bg-white/[0.05] transition-colors">
+                        <div className="w-10 h-10 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 shrink-0">
+                          <BarChart3 size={20} />
+                        </div>
+                        <div>
+                          <h4 className="text-xs font-black uppercase tracking-widest mb-1">The Market Maker</h4>
+                          <p className="text-[10px] text-neutral-500 italic uppercase font-bold tracking-tight">Challenge: Strategic Multi-Agent Negotiation</p>
+                          <p className="text-[10px] text-neutral-600 mt-2 leading-relaxed italic">Deploy an agent to a simulated marketplace. It must scrape prices across 10 tabs, negotiate with opponent bots, and execute a high-yield trade sequence.</p>
+                        </div>
+                      </div>
                     </div>
+
                     <TechButton primary icon={ChevronRight}>Enter the Arena</TechButton>
                   </div>
                   
@@ -304,17 +339,17 @@ export default function App() {
                        </div>
                        <div className="space-y-8">
                           <div>
-                            <div className="text-[10px] font-black uppercase text-orange-500 mb-2 tracking-[.3em]">Grand Prize</div>
-                            <div className="text-4xl font-black italic">$5,000 + MVP Promotion</div>
+                            <div className="text-[10px] font-black uppercase text-orange-500 mb-2 tracking-[.3em]">Season 01 Pool</div>
+                            <div className="text-4xl font-black italic">$12,500 + MVP Rank</div>
                           </div>
                           <div className="grid grid-cols-2 gap-10">
                             <div>
-                               <div className="text-[10px] font-black uppercase text-neutral-500 mb-2 tracking-[.3em]">Agents Built</div>
-                               <div className="text-2xl font-black italic text-white">42 Active</div>
+                               <div className="text-[10px] font-black uppercase text-neutral-500 mb-2 tracking-[.3em]">Active Agents</div>
+                               <div className="text-2xl font-black italic text-white">156</div>
                             </div>
                             <div>
-                               <div className="text-[10px] font-black uppercase text-neutral-500 mb-2 tracking-[.3em]">Deadline</div>
-                               <div className="text-2xl font-black italic text-white">12:00:00</div>
+                               <div className="text-[10px] font-black uppercase text-neutral-500 mb-2 tracking-[.3em]">Time Remaining</div>
+                               <div className="text-2xl font-black italic text-white">08:42:12</div>
                             </div>
                           </div>
                        </div>
@@ -325,60 +360,164 @@ export default function App() {
           </div>
         </section>
 
-        {/* CONTRIBUTION PROTOCOL */}
+        {/* CONTRIBUTION FRAMEWORK */}
         <section id="protocol" className="py-32 px-8 bg-neutral-900/10 border-y border-white/5">
           <div className="max-w-7xl mx-auto">
-            <SectionLabel>Contribution Protocol</SectionLabel>
-            <div className="grid lg:grid-cols-2 gap-20 items-start mb-24">
-               <div>
-                  <h2 className="text-4xl md:text-6xl font-black italic uppercase leading-none mb-8">
-                    Passion vs. <br /> <span className="text-orange-500">Profession.</span>
-                  </h2>
-                  <p className="text-neutral-400 text-lg leading-relaxed mb-8">
-                    We've drawn a clear line to protect the open-source spirit while ensuring critical engineering is professionally compensated. No more "unpaid labor" masquerading as community work.
-                  </p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                     <div className="p-6 bg-white/[0.03] border border-white/5 rounded-2xl">
-                        <Users className="text-orange-500 mb-4" />
-                        <h4 className="font-bold uppercase text-xs mb-2">Community Growth</h4>
-                        <p className="text-[10px] text-neutral-500 leading-relaxed uppercase font-bold tracking-tight italic">Social Advocacy // Mentorship // Content Creation // Meetups</p>
-                     </div>
-                     <div className="p-6 bg-white/[0.03] border border-white/5 rounded-2xl">
-                        <Coins className="text-blue-400 mb-4" />
-                        <h4 className="font-bold uppercase text-xs mb-2">Core Bounties</h4>
-                        <p className="text-[10px] text-neutral-500 leading-relaxed uppercase font-bold tracking-tight italic">Security Audits // SDK Maintenance // Architecture Refactors</p>
-                     </div>
-                  </div>
-               </div>
+            
+            <SectionLabel>Contribution Framework</SectionLabel>
 
-               <div className="bg-neutral-900/60 border border-white/5 rounded-[3rem] p-10 md:p-14 relative group">
-                  <div className="flex items-center gap-3 text-red-500 font-mono text-[10px] tracking-[.4em] mb-12">
-                    <ShieldAlert size={16} /> THE "DANGER ZONE" LOGIC
+            <div className="grid lg:grid-cols-2 gap-20 items-start mb-24">
+              
+              {/* LEFT SIDE */}
+              <div>
+                <h2 className="text-4xl md:text-6xl font-black italic uppercase leading-none mb-8">
+                  Build Freely. <br />
+                  <span className="text-orange-500">Work Fairly.</span>
+                </h2>
+
+                <p className="text-neutral-400 text-lg leading-relaxed mb-10">
+                  Vibium separates creative contribution from operational responsibility.
+                  This protects the open-source spirit while ensuring critical work is always compensated.
+                </p>
+
+                {/* TWO CARDS */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                  
+                  {/* VOLUNTEER */}
+                  <div className="p-6 bg-white/[0.03] border border-white/5 rounded-2xl">
+                    <Users className="text-orange-500 mb-4" />
+                    <h4 className="font-bold uppercase text-xs mb-2">Volunteer Sphere</h4>
+                    <p className="text-[10px] text-neutral-500 leading-relaxed uppercase font-bold tracking-tight italic">
+                      Content // Mentorship // Plugins // Meetups
+                    </p>
+                    <p className="text-[10px] text-neutral-600 mt-4 italic">
+                      Flexible, self-directed, no required hours.
+                    </p>
                   </div>
-                  <div className="space-y-6">
-                     {[
-                       { task: "High Accountability", status: "PAID", desc: "If system-wide outages depend on your work." },
-                       { task: "Recursive Admin", status: "PAID", desc: "Routine maintenance and billing infrastructure." },
-                       { task: "Proprietary Core", status: "PAID", desc: "Internal non-OSS tooling and official registries." },
-                       { task: "Passion Project", status: "VOLUNTEER", desc: "Building what you want to see exist in the world." }
-                     ].map((row, i) => (
-                       <div key={i} className="flex justify-between items-center gap-4 py-4 border-b border-white/5 last:border-0 group/row">
-                          <div className="space-y-1">
-                             <div className="text-xs font-black uppercase tracking-widest group-hover/row:text-white transition-colors">{row.task}</div>
-                             <div className="text-[10px] text-neutral-500 italic">"{row.desc}"</div>
-                          </div>
-                          <span className={`text-[10px] font-black px-3 py-1 rounded ${row.status === 'PAID' ? 'bg-blue-600/10 text-blue-400' : 'bg-orange-600/10 text-orange-400'}`}>
-                            {row.status}
-                          </span>
-                       </div>
-                     ))}
+
+                  {/* PAID */}
+                  <div className="p-6 bg-white/[0.03] border border-blue-500/20 rounded-2xl">
+                    <Coins className="text-blue-400 mb-4" />
+                    <h4 className="font-bold uppercase text-xs mb-2">Compensated Work</h4>
+                    <p className="text-[10px] text-neutral-500 leading-relaxed uppercase font-bold tracking-tight italic">
+                      Core Engineering // Security // SDKs // Bounties
+                    </p>
+                    <p className="text-[10px] text-neutral-600 mt-4 italic">
+                      Scoped, accountable, and paid.
+                    </p>
                   </div>
-                  <div className="mt-12 flex items-center justify-between">
-                     <span className="text-[10px] font-bold text-neutral-500 uppercase tracking-widest italic">Path to Ascension: Active</span>
-                     <TechButton className="py-2.5 px-6">Bounty Board</TechButton>
+
+                </div>
+
+                {/* RULE OF THUMB */}
+                <div className="mt-10 p-6 bg-neutral-900 border border-white/5 rounded-2xl">
+                  <div className="text-[10px] font-black uppercase tracking-[.4em] text-orange-500 mb-3">
+                    Rule of Thumb
                   </div>
-               </div>
+                  <p className="text-sm text-neutral-300">
+                    If a task becomes expected, scheduled, or critical to operations —
+                    it becomes paid work.
+                  </p>
+                </div>
+
+              </div>
+
+              {/* RIGHT SIDE — DANGER ZONE */}
+              <div className="bg-neutral-900/60 border border-white/5 rounded-[3rem] p-10 md:p-14 relative group">
+                
+                <div className="flex items-center gap-3 text-red-500 font-mono text-[10px] tracking-[.4em] mb-12">
+                  <ShieldAlert size={16} /> BOUNDARY CONDITIONS
+                </div>
+
+                <div className="space-y-6">
+                  {[
+                    {
+                      title: "High Accountability",
+                      desc: "Failure impacts system stability or trust",
+                      tag: "PAID"
+                    },
+                    {
+                      title: "Scheduled Responsibility",
+                      desc: "Requires consistent presence or coverage",
+                      tag: "PAID"
+                    },
+                    {
+                      title: "Operational Work",
+                      desc: "Maintenance, coordination, admin overhead",
+                      tag: "PAID"
+                    },
+                    {
+                      title: "Proprietary Scope",
+                      desc: "Internal or non-open-source systems",
+                      tag: "PAID"
+                    },
+                    {
+                      title: "Passion Projects",
+                      desc: "Built because you want it to exist",
+                      tag: "VOLUNTEER"
+                    }
+                  ].map((row, i) => (
+                    <div key={i} className="flex justify-between items-center gap-4 py-4 border-b border-white/5 last:border-0">
+                      
+                      <div>
+                        <div className="text-xs font-black uppercase tracking-widest">
+                          {row.title}
+                        </div>
+                        <div className="text-[10px] text-neutral-500 italic">
+                          {row.desc}
+                        </div>
+                      </div>
+
+                      <span className={`text-[10px] font-black px-3 py-1 rounded ${
+                        row.tag === "PAID"
+                          ? "bg-blue-600/10 text-blue-400"
+                          : "bg-orange-600/10 text-orange-400"
+                      }`}>
+                        {row.tag}
+                      </span>
+
+                    </div>
+                  ))}
+                </div>
+
+                <div className="mt-12 flex items-center justify-between">
+                  <span className="text-[10px] font-bold text-neutral-500 uppercase tracking-widest italic">
+                    Ascension Path Active
+                  </span>
+                  <TechButton className="py-2.5 px-6">
+                    View Bounties
+                  </TechButton>
+                </div>
+
+              </div>
+
             </div>
+
+            {/* ASCENSION FLOW */}
+            <div className="grid md:grid-cols-3 gap-6 text-center">
+              {[
+                ["01", "Contribute", "Build, share, experiment"],
+                ["02", "Get Recognized", "Earn points & visibility"],
+                ["03", "Get Paid", "Bounties, contracts, core roles"]
+              ].map(([num, title, desc], i) => (
+                <div key={i} className="p-8 bg-neutral-900/40 border border-white/5 rounded-2xl">
+                  <div className="text-orange-500 font-mono text-xs mb-2 tracking-widest">{num}</div>
+                  <h4 className="font-black uppercase text-sm mb-2">{title}</h4>
+                  <p className="text-[10px] text-neutral-500 italic">{desc}</p>
+                </div>
+              ))}
+            </div>
+
+            {/* FINAL LINE */}
+            <div className="mt-20 text-center max-w-3xl mx-auto">
+              <p className="text-neutral-500 text-sm">
+                Vibium is built with the community — but not sustained on unpaid labor.
+              </p>
+              <p className="text-white mt-2 font-bold italic">
+                We don’t ask contributors to do work we wouldn’t pay for internally.
+              </p>
+            </div>
+
           </div>
         </section>
 
