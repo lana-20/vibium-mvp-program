@@ -9,7 +9,7 @@ Vibium is a community-driven initiative built on the principle that while creati
 ## External Resources
 
 - **Contribution Policy Deep-Dive:** [View Full Framework](https://gemini.google.com/share/4a46b45901fc)  
-- **Vibium Landing Page (Placeholder):** [Project Overview](https://gemini.google.com/share/660041552d1d)  
+- **Leaderboard Landing Page (Placeholder):** [Project Overview](https://gemini.google.com/share/660041552d1d)  
 
 ---
 
