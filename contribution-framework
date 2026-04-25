@@ -1,0 +1,95 @@
+Vibium Contribution Framework: Volunteer vs. Compensated
+
+To maintain the health of the Vibium ecosystem, we draw a clear line between Community Growth (Ambassador/Volunteer) and Core Engineering/Operations (Paid/Compensated).
+
+🟠 The Volunteer Sphere (Ambassadors & MVPs)
+
+Purpose: Community health, advocacy, and organic growth.
+Rewards: Leaderboard points, exclusive merch, private beta access, speaking slots, and "Vibium Credits" (non-monetary recognition).
+
+1. Educational Content
+
+Community Tutorials: Writing "How-to" guides on personal blogs or Dev.to.
+
+Explainer Videos: Creating short-form clips or "Day in the Life of an Agent" videos.
+
+Social Advocacy: Engaging with the #AgenticWeb community on X/Twitter.
+
+2. Peer Support & Mentorship
+
+Discord Moderation: Helping newcomers set up their first Vibium instance.
+
+Issue Triaging: Clarifying bug reports and helping users find existing solutions.
+
+Community Calls: Hosting or speaking at informal community hangouts.
+
+3. Open Ecosystem Growth
+
+Third-Party Plugins: Building "fun" or niche connectors for the community.
+
+Local Meetups: Organizing small "Agent & Coffee" meetups in local cities.
+
+Documentation Polish: Fixing typos or clarifying language in public docs.
+
+🔘 The Compensated Sphere (Bounty & Contract)
+
+Purpose: High-reliability core infrastructure, security, and critical path items.
+Rewards: Direct USD/USDC payments, formal contracts, or significant grants.
+
+1. Core Protocol Engineering
+
+Security Hardening: Deep-dive audits or patching critical vulnerabilities.
+
+Architectural Refactors: Major performance overhauls that require 20+ hours of focused deep-work.
+
+Official SDK Maintenance: Managing the official release cycles for core libraries.
+
+2. High-Value Technical Assets
+
+Enterprise Benchmarking: Running complex, long-term performance stress tests for official whitepapers.
+
+Official Documentation Architecture: Designing the structure and technical deep-dives of the official docs site.
+
+Core Feature Bounties: Completing specific high-priority roadmap items tagged with a bounty.
+
+3. Professional Representation
+
+Official Workshop Lead: Being hired to represent Vibium at major global conferences (Sponsorship + Speaking Fee).
+
+Technical Consulting: Helping official Vibium partners integrate the protocol into their stack.
+
+🚦 The "Danger Zone" (When to move from Volunteer to Paid)
+
+If the task is...
+
+Status
+
+Action
+
+High Accountability
+
+Paid
+
+If failure results in a system-wide outage or PR crisis, it shouldn't be a volunteer task.
+
+Recursive/Admin
+
+Paid
+
+If it feels like "boring" administrative maintenance (e.g., managing billing or server infrastructure).
+
+Proprietary/Closed
+
+Paid
+
+If the work is for a non-OSS, internal Vibium tool that isn't shared with the community.
+
+Passion-Project
+
+Volunteer
+
+If the contributor is building it because they "just want it to exist" for their own use.
+
+The "Ascension" Path
+
+Ambassadors who consistently deliver high-value volunteer work are the first to be offered Paid Bounties or Core Developer Contracts. This ensures our paid team is composed of people who have already proven their alignment with the Vibium mission.
