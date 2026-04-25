@@ -1,3 +1,3 @@
-Vibium Contribution Framework: Volunteer vs. Compensated: https://gemini.google.com/share/3e7644624a82
+Vibium Contribution Framework: Volunteer vs. Compensated: https://gemini.google.com/share/aa8c7781b251
 
-Temporary landing page placeholder: https://gemini.google.com/share/f7a94e2f2048
+Landing page placeholder: https://gemini.google.com/share/660041552d1d
