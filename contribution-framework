@@ -1,95 +1,173 @@
-Vibium Contribution Framework: Volunteer vs. Compensated
+Vibium Contribution Framework: Volunteer vs. Compensated Work
 
-To maintain the health of the Vibium ecosystem, we draw a clear line between Community Growth (Ambassador/Volunteer) and Core Engineering/Operations (Paid/Compensated).
+To maintain a healthy and fair ecosystem, Vibium clearly separates community-driven contributions from core operational work. This distinction protects our contributors, preserves open-source energy, and ensures that critical infrastructure work is reliably delivered and fairly compensated.
 
-🟠 The Volunteer Sphere (Ambassadors & MVPs)
+The Volunteer Sphere: Ambassadors & MVPs
 
-Purpose: Community health, advocacy, and organic growth.
-Rewards: Leaderboard points, exclusive merch, private beta access, speaking slots, and "Vibium Credits" (non-monetary recognition).
+The volunteer sphere is the engine of community growth, knowledge sharing, and ecosystem expansion.
+
+Nature of Work:
+
+Self-Directed: You choose what to work on based on your interests and creativity.
+
+Flexible: There are no required hours, deadlines, or minimum coverage expectations.
+
+Impact-Driven: Work is focused on experimentation, education, and brand building.
+
+Rewards & Recognition:
+
+Accumulation of Leaderboard points and Vibium Credits.
+
+Early access to experimental features and private beta previews.
+
+Opportunities for public recognition and speaking slots at community events.
 
 1. Educational Content
 
-Community Tutorials: Writing "How-to" guides on personal blogs or Dev.to.
+Authoring tutorials for personal blogs or developer platforms.
 
-Explainer Videos: Creating short-form clips or "Day in the Life of an Agent" videos.
+Creating video demonstrations, explainers, or "build in public" experiments.
 
-Social Advocacy: Engaging with the #AgenticWeb community on X/Twitter.
+Sharing technical insights and architectural patterns on social channels.
 
 2. Peer Support & Mentorship
 
-Discord Moderation: Helping newcomers set up their first Vibium instance.
+Assisting other builders in the Discord community on an ad-hoc basis.
 
-Issue Triaging: Clarifying bug reports and helping users find existing solutions.
+Participating in community calls and contributing to knowledge-sharing sessions.
 
-Community Calls: Hosting or speaking at informal community hangouts.
+Note: No volunteer is expected to provide continuous support or technical coverage.
 
 3. Open Ecosystem Growth
 
-Third-Party Plugins: Building "fun" or niche connectors for the community.
+Developing community-driven plugins or third-party integrations.
 
-Local Meetups: Organizing small "Agent & Coffee" meetups in local cities.
+Organizing local meetups or representing Vibium at industry events.
 
-Documentation Polish: Fixing typos or clarifying language in public docs.
+Improving public documentation for clarity, grammar, or developer experience.
 
-🔘 The Compensated Sphere (Bounty & Contract)
+The Compensated Sphere: Bounties & Contracts
 
-Purpose: High-reliability core infrastructure, security, and critical path items.
-Rewards: Direct USD/USDC payments, formal contracts, or significant grants.
+The compensated sphere covers high-reliability, high-accountability tasks critical to the stability and growth of the Vibium infrastructure.
+
+Nature of Work:
+
+Defined Scope: Tasks have specific technical requirements and fixed deadlines.
+
+Accountability: Work is subject to rigorous review and performance standards.
+
+Business Critical: Includes tasks that impact system uptime, security, or enterprise utility.
+
+Compensation Structure:
+
+Standard payments in USD or USDC.
+
+Formalized service contracts or grant agreements.
 
 1. Core Protocol Engineering
 
-Security Hardening: Deep-dive audits or patching critical vulnerabilities.
+Conducting security audits and implementing critical vulnerability fixes.
 
-Architectural Refactors: Major performance overhauls that require 20+ hours of focused deep-work.
+Major architectural improvements requiring extensive deep-work (20+ hours).
 
-Official SDK Maintenance: Managing the official release cycles for core libraries.
+Ownership and maintenance of official SDKs and core repositories.
 
 2. High-Value Technical Assets
 
-Enterprise Benchmarking: Running complex, long-term performance stress tests for official whitepapers.
+Enterprise-grade benchmarking and performance optimization testing.
 
-Official Documentation Architecture: Designing the structure and technical deep-dives of the official docs site.
+Designing official documentation architecture and authoring deep technical guides.
 
-Core Feature Bounties: Completing specific high-priority roadmap items tagged with a bounty.
+Delivering roadmap features specifically tagged with official bounties.
 
 3. Professional Representation
 
-Official Workshop Lead: Being hired to represent Vibium at major global conferences (Sponsorship + Speaking Fee).
+Paid speaking engagements at major industry conferences.
 
-Technical Consulting: Helping official Vibium partners integrate the protocol into their stack.
+Leading official workshops and certification training.
 
-🚦 The "Danger Zone" (When to move from Volunteer to Paid)
+Providing technical consulting and implementation for enterprise partners.
 
-If the task is...
+The Boundary Rules: Determining Compensation
 
-Status
+A task must transition from the volunteer sphere to the compensated sphere if it meets any of the following criteria:
 
-Action
+High Accountability: If failure to deliver would cause system outages, security risks, or significant reputational damage.
 
-High Accountability
+Scheduled Responsibility: If the role requires being "on duty," regular moderation shifts, or recurring obligations.
 
-Paid
+Operational Overhead: If the task involves internal maintenance, administrative coordination, or operations.
 
-If failure results in a system-wide outage or PR crisis, it shouldn't be a volunteer task.
+Proprietary Scope: If the output is intended for internal use only and is not released as open-source.
 
-Recursive/Admin
+The Gray Zone Matrix
 
-Paid
-
-If it feels like "boring" administrative maintenance (e.g., managing billing or server infrastructure).
-
-Proprietary/Closed
-
-Paid
-
-If the work is for a non-OSS, internal Vibium tool that isn't shared with the community.
-
-Passion-Project
+Activity
 
 Volunteer
 
-If the contributor is building it because they "just want it to exist" for their own use.
+Compensated
 
-The "Ascension" Path
+Discord Support
 
-Ambassadors who consistently deliver high-value volunteer work are the first to be offered Paid Bounties or Core Developer Contracts. This ensures our paid team is composed of people who have already proven their alignment with the Vibium mission.
+Casual, ad-hoc assistance
+
+Scheduled moderation or support shifts
+
+Documentation
+
+Minor edits and community guides
+
+Core architecture and technical ownership
+
+Events
+
+Organizing a local community meetup
+
+Leading an official Vibium workshop
+
+Issue Triage
+
+Occasional feedback or clarification
+
+Assigned responsibility for repository health
+
+Rule of Thumb: If a task becomes expected or relied upon for operations, it must be compensated.
+
+The "Danger Zone" Test
+
+Before assigning or accepting work, apply this test:
+
+"If this task stops tomorrow, does a critical system or process break?"
+
+No: The task is a volunteer contribution.
+
+Yes: The task is a compensated responsibility.
+
+The Ascension Path
+
+Vibium prioritizes existing community members for paid opportunities. The standard progression path is as follows:
+
+Contribute as an Ambassador or MVP to build a track record.
+
+Demonstrate technical consistency and cultural alignment.
+
+Ascend to invited bounties, fixed-term contracts, or core contributor roles.
+
+Institutional Commitments
+
+To maintain professional standards, Vibium adheres to the following:
+
+No unpaid operational or administrative roles.
+
+No "soft expectations" of free labor from community members.
+
+No replacement of monetary compensation with merchandise or "exposure" for critical work.
+
+No requirement for Ambassadors to serve as technical support staff.
+
+Guiding Philosophy
+
+Vibium is built by a community, but it is not sustained on unpaid labor. We believe that while creativity should be free and unburdened, professional responsibility must be fairly compensated.
+
+We will never ask our community to do work that we would not pay for internally.
